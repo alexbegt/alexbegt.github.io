@@ -693,15 +693,6 @@ p.lang a.active {
   border-top: 1px solid white;
 }
 
-.newsletter-color {
-  background: rgba(0, 200, 170, 0.3);
-  border-color: #00c8aa;
-}
-.newsletter-color:hover {
-  background: #00af94;
-  border-color: #00af94;
-}
-
 .twitter-color {
   background: rgba(0, 172, 237, 0.3);
   border-color: #00aced;
@@ -1590,40 +1581,6 @@ p.lang a.active {
   color: #FF1D4D;
 }
 
-/* ------------------------------------- */
-/* 6. Newsletter part .................. */
-/* ------------------------------------- */
-#newsletter-part {
-  position: fixed;
-  top: 0;
-  left: 0;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
-  -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
-  -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
-  -o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
-  transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
-}
-#newsletter-part .item-title {
-  -webkit-transform: translateY(calc(-50% + 30px));
-  -moz-transform: translateY(calc(-50% + 30px));
-  -ms-transform: translateY(calc(-50% + 30px));
-  -o-transform: translateY(calc(-50% + 30px));
-  transform: translateY(calc(-50% + 30px));
-}
-
-.newsletter-touch {
-  -webkit-transform: scale(0) !important;
-  -moz-transform: scale(0) !important;
-  -ms-transform: scale(0) !important;
-  -o-transform: scale(0) !important;
-  transform: scale(0) !important;
-}
-
 .fa-spinner {
   color: #FFFFFF !important;
 }
@@ -1756,10 +1713,6 @@ p.lang a.active {
 
   h1 {
     font-size: 60px;
-  }
-
-  .newsletter-title {
-    font-size: 3em;
   }
 
   .open-menu-mobile {
@@ -1980,11 +1933,6 @@ p.lang a.active {
   #countdown_dashboard .text-news .point {
     display: block;
   }
-
-  .newsletter-title {
-    font-size: 2em;
-  }
-
   .fa-spinner {
     display: none !important;
   }
@@ -1999,14 +1947,6 @@ p.lang a.active {
     -ms-transform: translateY(calc(-50% - 30px));
     -o-transform: translateY(calc(-50% - 30px));
     transform: translateY(calc(-50% - 30px));
-  }
-
-  #newsletter-part .item-title {
-    -webkit-transform: translateY(calc(-50% + 10px));
-    -moz-transform: translateY(calc(-50% + 10px));
-    -ms-transform: translateY(calc(-50% + 10px));
-    -o-transform: translateY(calc(-50% + 10px));
-    transform: translateY(calc(-50% + 10px));
   }
 }
 /* Only for tablet in landscape mode */
