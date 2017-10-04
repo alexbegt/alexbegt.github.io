@@ -15,7 +15,7 @@
     5. Scroll to anchor
     6. Buttons / Menu interactions
     7. Countdown
-    9. Swipebox Gallery
+    8. Swipebox Gallery
 */
 
 /* ------------------------------------- */
