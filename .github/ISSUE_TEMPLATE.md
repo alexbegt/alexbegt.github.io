@@ -1,8 +1,20 @@
-**Version info:**
-`Minecraft `
-`Forge `
-`Natura `
+<!--- Provide a general summary of the issue in the Title above -->
 
-**Report Information:**
+## Version Information
+`Minecraft: `
+`Forge: `
+`Natura: `
+
+## Report Information
+<!-- Please provide a detailed description of the issue -->
+
+## Crash Log + Forge Log
+<!-- If you crash, please upload the crash log to pastebin.com and provide a link here -->
+
+## Forge Log
+<!-- Upload the fml-client-latest.log to pastebin.com and provide a link here -->
+
+## Steps to Reproduce
+<!-- Please try to provide a way to reproduce the bug reported -->
 
 <!-- Thank you for reporting! -->
