@@ -1,6 +1,6 @@
 import { ControlledState } from "./calculator/controlled-state.mjs"
 import { Toon } from "./calculator/toon.mjs"
-import { drawCog, makeGagCard, printEffects } from "./common.mjs"
+import { drawCog, makeGagCard, printEffects } from "./test.mjs"
 import { Card, FunctionImage, Text, Title, Row, Col, Input, WFunction } from "./bootwrap.mjs"
 import * as toon_attacks from "./calculator/toon-attack.mjs"
 import { isMultiTarget, names, sos_names } from "./calculator/constants.mjs"

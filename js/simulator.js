@@ -1,5 +1,5 @@
 import { SimulationState } from "./calculator/simulation-state.mjs"
-import * as common from "./common.mjs"
+import * as common from "./test.mjs"
 import * as toon_attacks from "./calculator/toon-attack.mjs"
 
 const context = {

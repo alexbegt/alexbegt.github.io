@@ -1,4 +1,4 @@
-import {getIterator, checkStrategy, update, getMinLevel, getDoubleMinLevel} from "./common.mjs"
+import {getIterator, checkStrategy, update, getMinLevel, getDoubleMinLevel} from "./test.mjs"
 import { Sound, Drop } from "../calculator/toon-attack.mjs"
 
 function getDefault() {

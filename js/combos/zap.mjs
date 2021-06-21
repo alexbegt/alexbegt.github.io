@@ -1,4 +1,4 @@
-import { update, getMinLevel, getIterator, getDoubleMinLevel } from "./common.mjs"
+import { update, getMinLevel, getIterator, getDoubleMinLevel } from "./test.mjs"
 import { Squirt, Zap } from "../calculator/toon-attack.mjs"
 import { damages } from "../calculator/constants.mjs"
 import { EffectSoak } from "../calculator/effects.mjs"
