@@ -19,13 +19,13 @@
 }
 
 .small-gag img, .gag img, .toon-gag img {
-    background-image: url("../sprites/gag-sprites.png");
+    background-image: url("/sprites/gag-sprites.png");
     width: 64px;
     background-repeat: no-repeat;
 }
 
 .toon-sos img {
-    background-image: url("../sprites/sos-sprites.png");
+    background-image: url("/sprites/sos-sprites.png");
     width: 64px;
     background-repeat: no-repeat;
 }
@@ -46,11 +46,11 @@
 }
 
 .gag-panel-cell-block-gag {
-    background-image: url("../sprites/gag-sprites.png");
+    background-image: url("/sprites/gag-sprites.png");
 }
 
 .gag-panel-cell-block-sos {
-    background-image: url("../sprites/sos-sprites.png");
+    background-image: url("/sprites/sos-sprites.png");
 }
 
 .gag-panel-cell-block span {
@@ -72,18 +72,18 @@
 
 .gag-prestige-cell {
     width: 64px;
-    background-image: url("../sprites/prestige.png");
+    background-image: url("/sprites/prestige.png");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#gag-fire-cell { background-image: url("../sprites/fire.png") }
-#gag-sue-cell { background-image: url("../sprites/sue.png") }
-#gag-pete-cell { background-image: url("../sprites/pete.png") }
-#gag-rain-cell { background-image: url("../sprites/rain.png") }
+#gag-fire-cell { background-image: url("/sprites/fire.png") }
+#gag-sue-cell { background-image: url("/sprites/sue.png") }
+#gag-pete-cell { background-image: url("/sprites/pete.png") }
+#gag-rain-cell { background-image: url("/sprites/rain.png") }
 
 .gag-prestige-cell-active {
-    background-image: url("../sprites/activeprestige.png") !important;
+    background-image: url("/sprites/activeprestige.png") !important;
 }
 
 #modal-gag-panel .modal-dialog, #modal-toon-choice .modal-dialog {
