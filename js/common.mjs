@@ -81,7 +81,7 @@ export function spawnCogDOM(context) {
     let level = document.querySelector("#control-level").value.toLowerCase(),
         exe = document.querySelector("#control-exe").checked,
         type = document.querySelector("#control-type").value,
-        v2 = document.querySelector("#control-v2").checked,
+        v2 = document.querySelector("#control-v2").checked
     if (level.indexOf("exe") > -1) exe = true
     if (level.indexOf("a") > -1) type = "attack"
     if (level.indexOf("d") > -1) type = "defense"
