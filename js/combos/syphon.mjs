@@ -1,4 +1,4 @@
-import {update, getMinLevel, getDoubleMinLevel, getIterator} from "./test.mjs"
+import {update, getMinLevel, getDoubleMinLevel, getIterator} from "./common.mjs"
 import { Sound, Squirt, Zap, Drop } from "../calculator/toon-attack.mjs"
 
 function getDefault() {
