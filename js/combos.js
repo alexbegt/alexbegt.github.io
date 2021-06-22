@@ -2,7 +2,7 @@ import { SimulationState } from "./calculator/simulation-state.mjs"
 import * as common from "./common.mjs"
 import * as toon_attacks from "./calculator/toon-attack.mjs"
 import { Card, Image, Text, Toast } from "./bootwrap.mjs"
-import { names } from "./calculator/constants.mjs"
+import { test_names } from "./calculator/constants.mjs"
 
 import { soundTest, soundDropTest, soundDoubleDropTest } from "./combos/sound.mjs"
 import { syphonTest, soundZapTest } from "./combos/syphon.mjs"
@@ -27,7 +27,7 @@ function play(strategy) {
 
 const positions = ["Right", "Mid right", "Mid left", "Left"]
 async function copy(combo) {
-    const texts = combo.strategy.map(x => x.target > -1 ? `${names[x.id][x.level]} ${positions[x.target]}` : names[x.id][x.level])
+    const texts = combo.strategy.map(x => x.target > -1 ? `${test_names[x.id][x.level]} ${positions[x.target]}` : test_names[x.id][x.level])
     if (combo.description)
         texts.push(combo.description)
     const str = texts.join(", ")

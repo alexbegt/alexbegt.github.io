@@ -32,6 +32,18 @@ export const sos_multipliers = {
     "Drop": [1.10, 1.15, 1.20]
 }
 
+export const test_names = {
+    "Toon-Up": ["Feather", "Megaphone", "Lipstick", "Cane", "Dust", "Cubes", "Cannon", "Dive"],
+    "Trap": ["Peel", "Rake", "Springboard", "Marbles", "Quicksand", "Trapdoor", "Wrecking Ball", "TNT"],
+    "Lure": ["$1", "Small Magnet", "$5", "Big Magnet", "$10", "Goggles", "$50", "Presentation"],
+    "Sound": ["Kazoo", "Horn", "Whistle", "Bugle", "Aoogah", "Trunk", "Fog", "Opera"],
+    "Squirt": ["Flower", "Glass Water", "Squirtgun", "Balloon", "Seltzer", "Hose", "Cloud", "Geyser"],
+    "Zap": ["Joybuzzer", "Rug", "Balloon", "Battery", "Taser", "TV", "Tesla", "Lightning"],
+    "Throw": ["Cupcake", "Fruit Slice", "Cream Slice", "Birthday Slice", "Fruit Pie", "Cream Pie", "Cake", "Wedding Cake"],
+    "Drop": ["Flower Pot", "Sandbag", "Bowling Ball", "Anvil", "Big Weight", "Safe", "Boulder", "Piano"],
+    "Special": ["Fire", "Sue", "Professor Pete", "Rain"]
+}
+
 export const short_names = {
     "Trap": ["Banana", "Rake", "Springboard", "Marbles", "Sand", "Door", "Wreck", "TNT"],
     "Sound": ["Kazoo", "Bike Horn", "Whistle", "Bugle", "Aoogah", "Trunk", "Fog", "Opera"],
