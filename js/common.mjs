@@ -70,9 +70,9 @@ export function redrawState(context) {
     }
 }
 
-export function spawnCog(context, level, exe, type) {
+export function spawnCog(context, level, exe, type, v2) {
     const { state } = context
-    const cog = new ModifierCog(level, { executive: exe, type })
+    const cog = new ModifierCog(level, { executive: exe, type, v2 })
     state.spawnCog(cog)
     return cog
 }
@@ -80,11 +80,13 @@ export function spawnCog(context, level, exe, type) {
 export function spawnCogDOM(context) {
     let level = document.querySelector("#control-level").value.toLowerCase(),
         exe = document.querySelector("#control-exe").checked,
-        type = document.querySelector("#control-type").value
+        type = document.querySelector("#control-type").value,
+        v2 = document.querySelector("#control-v2").checked,
     if (level.indexOf("exe") > -1) exe = true
     if (level.indexOf("a") > -1) type = "attack"
     if (level.indexOf("d") > -1) type = "defense"
-    const cog = spawnCog(context, parseInt(level), exe, type)
+    if (level.indexOf("v2") > -1) v2 = true
+    const cog = spawnCog(context, parseInt(level), exe, type, v2)
     if (level.indexOf("pl") > -1) cog.effects.add(new EffectLure(99999, true))
     else if (level.indexOf("l") > -1) cog.effects.add(new EffectLure(99999, false))
     if (level.indexOf("s") > -1) cog.sue()
@@ -99,10 +101,11 @@ function spawnCogsDOM(context) {
     for (let i = cogs.length - 1; i >= 0; i--) {
         const level = parseInt(cogs[i])
         const exe = cogs[i].indexOf("exe") > -1
+        const v2 = cogs[i].indexOf("v2") > -1
         let type = "normal"
         if (cogs[i].indexOf("a") > -1) type = "attack"
         if (cogs[i].indexOf("d") > -1) type = "defense"
-        const cog = spawnCog(context, level, exe, type)
+        const cog = spawnCog(context, level, exe, type, v2)
         if (cogs[i].indexOf("pl") > -1) cog.effects.add(new EffectLure(99999, true))
         else if (cogs[i].indexOf("l") > -1) cog.effects.add(new EffectLure(99999, false))
         if (cogs[i].indexOf("s") > -1) cog.sue()
